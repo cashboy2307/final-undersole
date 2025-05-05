@@ -1,0 +1,151 @@
+/* Reset y estilo base */
+
+* {
+
+    box-sizing: border-box;
+  
+    margin: 0;
+  
+    padding: 0;
+  
+  }
+  
+  body {
+  
+    font-family: 'Roboto', sans-serif;
+  
+    background-color: #ff0000; /* Fondo rojo para toda la página */
+  
+    color: #000; /* Texto en negro */
+  
+    padding: 10px;
+  
+    text-align: center; /* Todo centrado */
+  
+  }
+  
+  /* Encabezado y menú de navegación */
+  
+  header {
+  
+    background-color: #ff0000; /* Fondo rojo */
+  
+    padding: 1em;
+  
+  }
+  
+  .menu {
+  
+    display: flex;
+  
+    justify-content: center;
+  
+    gap: 2em;
+  
+  }
+  
+  .menu a {
+  
+    color: #000; /* Texto en negro */
+  
+    text-decoration: none;
+  
+    font-weight: bold;
+  
+  }
+  
+  /* Contenido de la página sin cajas adicionales */
+  
+  .page {
+  
+    margin: 20px auto;
+  
+    max-width: 800px;
+  
+    padding: 20px;
+  
+    /* Sin fondo ni borde para que se integre al fondo rojo */
+  
+    background-color: transparent;
+  
+  }
+  
+  /* Títulos */
+  
+  .page h2 {
+  
+    margin-bottom: 20px;
+  
+    color: #000;
+  
+  }
+  
+  /* Imágenes sin bordes */
+  
+  .main-image {
+  
+    display: block;
+  
+    max-width: 100%;
+  
+    margin: 0 auto 20px auto;
+  
+    border: none;
+  
+  }
+  
+  .text-block {
+  
+    margin-bottom: 20px;
+  
+    text-align: center;
+  
+  }
+  
+  .secondary-image {
+  
+    display: block;
+  
+    max-width: 50%;
+  
+    margin: 0 auto 20px auto;
+  
+    border: none;
+  
+  }
+  
+  /* Enlace para descargar PDF */
+  
+  .download {
+  
+    text-align: center;
+  
+    margin-top: 20px;
+  
+  }
+  
+  .download a {
+  
+    color: #000;
+  
+    font-weight: bold;
+  
+    text-decoration: none;
+  
+  }
+  
+  /* Pie de página */
+  
+  footer {
+  
+    text-align: center;
+  
+    margin-top: 20px;
+  
+    padding-top: 10px;
+  
+    border-top: none;
+  
+    color: #000;
+  
+  } 
